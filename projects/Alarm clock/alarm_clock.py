@@ -22,6 +22,8 @@ def alarm():
 		# Set Alarm
 		set_alarm_time = f"{hour.get()}:{minute.get()}:{second.get()}"
 
+		print("test print output JJ")
+
 		# Wait for one seconds
 		time.sleep(1)
 
